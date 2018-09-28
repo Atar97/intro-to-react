@@ -31,3 +31,31 @@ h1{
   font-size: 20px;
   text-shadow: 1px 1px 2px white;
 }
+
+.tabs{
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  width: 350px;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fef65b;
+}
+.tabs ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 3px;
+}
+.tabs li{
+  border: 1px solid black;
+}
+.tabs li:hover {
+  color: white;
+  background-color: blue;
+}
+
+.tabs p{
+  margin-top: 10px;
+}

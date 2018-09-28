@@ -14,7 +14,7 @@ class Clock extends React.Component {
         <h1>Clock</h1>
 
         <div className="date-time">
-          
+
         <section className="clock-row">
           <p>Time:</p>
           <p>{nowTime}</p>
@@ -38,7 +38,6 @@ class Clock extends React.Component {
   }
 
   componentDidMount(){
-    console.log(this.state.time);
     this.handle = setInterval(this.tick.bind(this), 1000);
   }
 

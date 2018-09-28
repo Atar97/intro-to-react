@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import Clock from './clock';
 import Tabs from './tabs';
+import Weather from './weather';
 
 document.addEventListener('DOMContentLoaded', () => {
   console.log("page loaded");
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <h1>React Widgets</h1>
         <Clock />
         <Tabs tabs={array}/>
+        <Weather city='San Francisco'/>
       </div>,
       root
   );
